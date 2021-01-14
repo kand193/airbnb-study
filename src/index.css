@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.space-title {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.space-item {
+  display: inline-block;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.space-item-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 15px;
 }
